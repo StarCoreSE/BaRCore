@@ -272,7 +272,7 @@ namespace SpaceEquipmentLtd.NanobotBuildAndRepairSystem
             }
          }
          NanobotBuildAndRepairSystemMod.InitControls();
-		 _Welder.Enabled = true;
+
          _Welder.EnabledChanged += (block) => { this.UpdateCustomInfo(true); };
          _Welder.IsWorkingChanged += (block) => { this.UpdateCustomInfo(true); };
 
